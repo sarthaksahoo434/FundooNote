@@ -29,3 +29,4 @@ resetUser(data:any){
   return this.httpservice.put(`${this.baseUrl}/api/resetPassword`,data);
 }
 }
+

@@ -35,7 +35,7 @@ export class LoginComponent implements OnInit {
     this.userService.loginnUser(reqData).subscribe((res:any)=>{
       console.log(" Login successfully ",res);
       localStorage.setItem('token',res['id']);
-     // this.route.navigate(['dashboard'])
+    
     })
   }
 

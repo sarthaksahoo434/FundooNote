@@ -20,7 +20,7 @@ export class CreatnoteComponent implements OnInit {
     this.fullEdit = true;
   }
   createNote() {
-    // let data = new FormData();
+    
    
     let data =  {
       title: (<HTMLInputElement>document.getElementById("title")) ?

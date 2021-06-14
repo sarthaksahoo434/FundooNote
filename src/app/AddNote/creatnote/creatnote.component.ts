@@ -29,5 +29,3 @@ export class CreatnoteComponent implements OnInit {
       isPined: this.pin
     }
 }
-}
-}}
